@@ -3,9 +3,28 @@
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
-    "bun-types": "latest"
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "bun-types": "latest",
+    "encoding": "^0.1.13",
+    "eslint": "^8.52.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.0.3"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "endOfLine": "lf",
+    "semi": false,
+    "trailingComma": "all",
+    "useTabs": false,
+    "bracketSpacing": true,
+    "printWidth": 120
   }
 }
